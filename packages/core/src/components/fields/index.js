@@ -9,6 +9,7 @@ import StringField from "./StringField";
 import TitleField from "./TitleField";
 import NullField from "./NullField";
 import UnsupportedField from "./UnsupportedField";
+import TableField from "./table";
 
 export default {
   AnyOfField: MultiSchemaField,
@@ -23,4 +24,5 @@ export default {
   TitleField,
   NullField,
   UnsupportedField,
+  TableField,
 };
