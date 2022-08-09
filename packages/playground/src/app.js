@@ -4,6 +4,7 @@ import { samples } from "./samples";
 import "react-app-polyfill/ie11";
 import Form, { withTheme } from "@rjsf/core";
 import DemoFrame from "./DemoFrame";
+import table from "./table";
 
 // deepEquals and shouldRender and isArguments are copied from rjsf-core. TODO: unify these utility functions.
 
